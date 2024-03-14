@@ -22,7 +22,7 @@ const NoteDetailPage = ({ params }) => {
             {data && (
                 <div className="my-8 mx-8">
                     <h1 className="text-3xl font-bold">{data.title}</h1>
-                    <p>{data.body}</p>
+                    <p style={{ whiteSpace: 'pre-line' }}>{data.body}</p>
                 </div>
             )}
         </div>

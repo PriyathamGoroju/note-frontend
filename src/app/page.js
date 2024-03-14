@@ -17,12 +17,12 @@ const NotesIndexPage = () => {
     }, [open, del]);
     return (
         <div className="container mx-auto p-8">
-            <h1 className="text-3xl font-bold mb-4">Notes</h1>
+            <h1 className="text-3xl font-bold">Notes</h1>
             <button
                 onClick={() => {
                     setOpen(!open);
                 }}
-                className="hover:bg-blue-600 text-white px-6 py-3 my-6 rounded-md hover:scale-105 bg-slate-800"
+                className="hover:bg-blue-600 text-white px-6 py-3 my-6 sm:my-10 rounded-md hover:scale-105 bg-slate-800"
             >
                 Create
             </button>
